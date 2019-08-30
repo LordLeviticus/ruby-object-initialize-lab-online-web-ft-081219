@@ -2,7 +2,7 @@ class Person
   
   
   def initialize(name)
-    attr_accessible :@name
+    @name = name
   end
   
 
